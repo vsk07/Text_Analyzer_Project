@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About My self</title>
+  </head>
+  <style>
+    body {
+      background-color: rgb(51, 150, 9);
+    }
+    #element{
+        background-color: rgb(71, 42, 165);
+        font-size: 2.5rem;
+    }
+  </style>
+  <body>
+    <div>
+      <span id="element"></span>
+    </div>
+
+    <ul>
+      <li>
+        <a
+          href="mailto: kvikramssingh319@gmail.com?subject = Feedback&body =
+            Message"
+          >Send Feedback</a
+        >
+      </li>
+    </ul>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Hey my self VIKRAM SINGH.", "I am from Jaipur.","Currently I am Pursuring B.tech from NIT jalandhar, Punjab", "I am Frontend Web Developer"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
